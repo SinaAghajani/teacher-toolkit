@@ -259,9 +259,10 @@ Frontend Developer & Educational Technology Enthusiast
 ## 📄 License
 
 This project is currently developed for educational and portfolio purposes.
+Building educational tools with modern web technologies.
 
 ---
 
 <p align="center">
-  Built with ❤️ for teachers
+  Built with ❤️ for teachers 
 </p>
