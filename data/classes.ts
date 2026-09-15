@@ -1,0 +1,93 @@
+import type { ClassRoom } from "@/types/class";
+
+export const classes: ClassRoom[] = [
+    {
+        id: "class-001",
+        name: "کلاس ششم الف",
+        grade: 6,
+        section: "الف",
+        academicYear: "۱۴۰۵-۱۴۰۴",
+        studentCount: 28,
+        averageScore: 84,
+        attendanceRate: 94,
+        createdAt: "1404/07/01",
+        subjects: [
+            {
+                id: "subject-math",
+                name: "ریاضی",
+                teacher: "سینا آقاجانی",
+                averageScore: 82,
+                studentCount: 28,
+            },
+            {
+                id: "subject-science",
+                name: "علوم",
+                teacher: "سینا آقاجانی",
+                averageScore: 86,
+                studentCount: 28,
+            },
+            {
+                id: "subject-persian",
+                name: "فارسی",
+                teacher: "سینا آقاجانی",
+                averageScore: 87,
+                studentCount: 28,
+            },
+            {
+                id: "subject-social",
+                name: "مطالعات اجتماعی",
+                teacher: "سینا آقاجانی",
+                averageScore: 83,
+                studentCount: 28,
+            },
+            {
+                id: "subject-religion",
+                name: "هدیه‌های آسمان",
+                teacher: "سینا آقاجانی",
+                averageScore: 89,
+                studentCount: 28,
+            },
+        ],
+    },
+    {
+        id: "class-002",
+        name: "کلاس پنجم ب",
+        grade: 5,
+        section: "ب",
+        academicYear: "۱۴۰۵-۱۴۰۴",
+        studentCount: 26,
+        averageScore: 81,
+        attendanceRate: 92,
+        createdAt: "1404/07/01",
+        subjects: [
+            {
+                id: "subject-math-5",
+                name: "ریاضی",
+                teacher: "سینا آقاجانی",
+                averageScore: 79,
+                studentCount: 26,
+            },
+            {
+                id: "subject-science-5",
+                name: "علوم",
+                teacher: "سینا آقاجانی",
+                averageScore: 83,
+                studentCount: 26,
+            },
+            {
+                id: "subject-persian-5",
+                name: "فارسی",
+                teacher: "سینا آقاجانی",
+                averageScore: 84,
+                studentCount: 26,
+            },
+            {
+                id: "subject-social-5",
+                name: "مطالعات اجتماعی",
+                teacher: "سینا آقاجانی",
+                averageScore: 80,
+                studentCount: 26,
+            },
+        ],
+    },
+];

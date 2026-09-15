@@ -1,0 +1,62 @@
+import type { Activity } from "@/types/activity";
+
+export const activities: Activity[] = [
+    {
+        id: "activity-feed-001",
+        type: "quiz",
+        title: "آزمون ریاضی تکمیل شد",
+        description: "آزمون فصل اول ریاضی توسط ۲۷ دانش‌آموز تکمیل شد.",
+        timestamp: "امروز، ۱۰:۴۵",
+        createdAt: "1405/06/15T10:45:00",
+    },
+    {
+        id: "activity-feed-002",
+        type: "student",
+        title: "عملکرد پارسا نیاز به بررسی دارد",
+        description: "میانگین عملکرد پارسا به ۶۷٪ رسیده است.",
+        user: "پارسا کریمی",
+        userId: "student-003",
+        timestamp: "امروز، ۰۹:۳۰",
+        createdAt: "1405/06/15T09:30:00",
+    },
+    {
+        id: "activity-feed-003",
+        type: "lesson",
+        title: "برنامه درس جدید ایجاد شد",
+        description: "برنامه تدریس «درک مطلب و مفهوم متن» ایجاد شد.",
+        timestamp: "دیروز، ۱۸:۲۰",
+        createdAt: "1405/06/14T18:20:00",
+    },
+    {
+        id: "activity-feed-004",
+        type: "worksheet",
+        title: "کاربرگ کسرها منتشر شد",
+        description: "کاربرگ تمرین کسرها برای دانش‌آموزان منتشر شد.",
+        timestamp: "دیروز، ۱۴:۱۵",
+        createdAt: "1405/06/14T14:15:00",
+    },
+    {
+        id: "activity-feed-005",
+        type: "achievement",
+        title: "پیشرفت کلاس ثبت شد",
+        description: "میانگین عملکرد کلاس نسبت به ماه گذشته ۶٪ افزایش داشته است.",
+        timestamp: "۲ روز پیش",
+        createdAt: "1405/06/13T12:00:00",
+    },
+    {
+        id: "activity-feed-006",
+        type: "quiz",
+        title: "آزمون علوم منتشر شد",
+        description: "آزمون درس پنجم علوم در دسترس دانش‌آموزان قرار گرفت.",
+        timestamp: "۳ روز پیش",
+        createdAt: "1405/06/12T16:40:00",
+    },
+    {
+        id: "activity-feed-007",
+        type: "class",
+        title: "اطلاعات کلاس بروزرسانی شد",
+        description: "اطلاعات کلاس ششم الف بروزرسانی شد.",
+        timestamp: "۴ روز پیش",
+        createdAt: "1405/06/11T11:20:00",
+    },
+];
